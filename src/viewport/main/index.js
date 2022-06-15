@@ -182,7 +182,7 @@ const Main = () => {
             </div>
           </div>
           <div className="row mt-60 d-flex align-items-center">
-          <div className="col-lg-4 col-md-6 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div className="col-lg-4 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
               <div className="testimonal-wrap">
                 <div className="d-flex justify-content-center mb-4">
                   <FaQuoteLeft className="quotes" />
@@ -221,7 +221,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">
+            <div className="col-lg-4 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">
               <div className="testimonal-wrap">
                 <div className="d-flex justify-content-center mb-4">
                   <FaQuoteLeft className="quotes" />
@@ -260,7 +260,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1400ms">
+            <div className="col-lg-4 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1400ms">
               <div className="testimonal-wrap">
                 <div className="d-flex justify-content-center mb-4">
                   <FaQuoteLeft className="quotes" />
@@ -298,6 +298,11 @@ const Main = () => {
                   </ul>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="row text-center mt-4">
+            <div className="col-sm-12">
+              <button class="btn block-btn common-btn" href="">View All</button>
             </div>
           </div>
         </div>
