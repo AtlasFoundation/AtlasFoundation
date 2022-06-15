@@ -5,6 +5,9 @@ import clientImg from "../../../src/assets/client-01.jpg";
 import video from '../../video/Universal-Volumetric-Video-Web-Player-transcode.mp4';
 import video1 from '../../video/Universal-Volumetric-Video-Web-Player-transcode.webm';
 import { DigitalIcon } from "../../svgIcon/svg";
+import { GeoIcon } from "../../svgIcon/svg";
+import { UnityIcon } from "../../svgIcon/svg";
+import { CyberIcon } from "../../svgIcon/svg";
 import { FaQuoteLeft, FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 
@@ -120,11 +123,11 @@ const Main = () => {
                     <div className="cards__item">
                       <div className="card text-center p-15">
                         <div className="card__image">
-                          <DigitalIcon />
+                          <CyberIcon />
                         </div>
                         <div className="card__content">
-                          <h4 className="card__title">Digital Beings</h4>
-                          <p className="card__text">Your AI, anywhere. An easy way for AI/AGI researchers to connect their code to virtual worlds, with access to voice, video, chat, player information and contextual scene data. Comes with examples for GPT-3, GPT-J, RASA and more. </p>
+                          <h4 className="card__title">Universal Volumetric</h4>
+                          <p className="card__text">A free, fast, cross-platform volumetric video codec for everyone. Optimized mesh compression combined with streaming MP4 texture sequences for playback of digital humans and other volumetric data in the web, Unity, Unreal and native platforms. </p>
                           <button className="btn btn--block card__btn">Github</button>
                         </div>
                       </div>
@@ -136,11 +139,11 @@ const Main = () => {
                     <div className="cards__item">
                       <div className="card text-center p-15">
                         <div className="card__image">
-                          <DigitalIcon />
+                          <GeoIcon />
                         </div>
                         <div className="card__content">
-                          <h4 className="card__title">Digital Beings</h4>
-                          <p className="card__text">Your AI, anywhere. An easy way for AI/AGI researchers to connect their code to virtual worlds, with access to voice, video, chat, player information and contextual scene data. Comes with examples for GPT-3, GPT-J, RASA and more. </p>
+                          <h4 className="card__title">AR & Geospatial Maps</h4>
+                          <p className="card__text">Bridging the virtual with the physical, GeoPose & OpenCV brings the 3D web to your workspace, university and lounge room. Explore your city in a new way with procedurally generated map tiles using geojson data with mapbox and turf.js </p>
                           <button className="btn btn--block card__btn">Github</button>
                         </div>
                       </div>
@@ -152,11 +155,11 @@ const Main = () => {
                     <div className="cards__item">
                       <div className="card text-center p-15">
                         <div className="card__image">
-                          <DigitalIcon />
+                          <UnityIcon />
                         </div>
                         <div className="card__content">
-                          <h4 className="card__title">Digital Beings</h4>
-                          <p className="card__text">Your AI, anywhere. An easy way for AI/AGI researchers to connect their code to virtual worlds, with access to voice, video, chat, player information and contextual scene data. Comes with examples for GPT-3, GPT-J, RASA and more. </p>
+                          <h4 className="card__title">Unity XR Bridge</h4>
+                          <p className="card__text">Bridging the virtual with the physical, GeoPose & OpenCV brings the 3D web to your workspace, university and lounge room. Explore your city in a new way with procedurally generated map tiles using geojson data with mapbox and turf.js </p>
                           <button className="btn btn--block card__btn">Github</button>
                         </div>
                       </div>

@@ -424,10 +424,19 @@ footer a {
   .banner {
     background-position-x: center;
   }
+
   .open-souce {
     background-size: cover;
     background-position: center;
     background-image: url(../src/assets/open-source-img-mobile.png);
+  }
+  .bg-white{
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .open-souce-wrap {
+    padding: 25px;
+    background-color: #fff;
 }
 
   .header_top:before {
@@ -444,6 +453,10 @@ footer a {
     box-shadow: none;
     position: relative;
     margin-left: auto;
+  }
+
+  div#About_Us p.pe-5 {
+    padding-right: 0 !important;
   }
 
   #Testimonial .row.mt-60.d-flex.align-items-center {
@@ -537,7 +550,7 @@ footer a {
 
 @media screen and (max-width:767px) {
   .banner {
-    height: 24vh;
+    height: auto;
   }
 
   .time-machine-wrap.text-center {
