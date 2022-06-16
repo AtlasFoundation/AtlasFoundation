@@ -1,14 +1,13 @@
 import Banner from "../../../src/assets/banner-img.png";
 import Work from "../../../src/assets/what-we-do-img.png";
 import ProjectImg from "../../../src/assets/projects-img.png";
-import clientImg from "../../../src/assets/client-01.jpg";
 import video from '../../video/Universal-Volumetric-Video-Web-Player-transcode.mp4';
 import video1 from '../../video/Universal-Volumetric-Video-Web-Player-transcode.webm';
 import { DigitalIcon } from "../../svgIcon/svg";
 import { GeoIcon } from "../../svgIcon/svg";
 import { UnityIcon } from "../../svgIcon/svg";
 import { CyberIcon } from "../../svgIcon/svg";
-import { FaQuoteLeft, FaStar, FaStarHalfAlt } from "react-icons/fa";
+import { FaQuoteLeft} from "react-icons/fa";
 
 
 const Main = () => {
@@ -181,124 +180,67 @@ const Main = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-md-12">
-              <h1 className="wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">What Clients Say</h1>
+              <h1 className="wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Our Services</h1>
             </div>
           </div>
           <div className="row mt-60 d-flex align-items-center">
             <div className="col-lg-4 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
               <div className="testimonal-wrap">
-                <div className="d-flex justify-content-center mb-4">
+                <div className="mb-4">
                   <FaQuoteLeft className="quotes" />
-                  <p className="px-xl-3 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-                    tenetur.
+                  <h5>Avatar Creator</h5>
+                  <p className="mb-0">
+                  An open, collaborative and evolving character creator project for the open metaverse.
                   </p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
                   <div className="client-img d-flex align-items-center ">
-                    <img src={clientImg} alt="client" className="rounded-circle img-fluid me-3" />
-
                     <div className="client-desc">
-                      <h6 className="mb-0">Maria Smantha</h6>
-                      <p className=" mb-0">Aug, 2021</p>
+                      <h6 className="mb-0">TypeScript</h6>
+                      <p className=" mb-0">Forks: 5</p>
                     </div>
                   </div>
-                  <ul className="rating list-unstyled d-flex justify-content-center mb-4">
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStarHalfAlt />
-                    </li>
-                  </ul>
+                  <a href="https://github.com/AtlasFoundation/AvatarCreator" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">Github</a>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">
               <div className="testimonal-wrap">
-                <div className="d-flex justify-content-center mb-4">
+                <div className="mb-4">
                   <FaQuoteLeft className="quotes" />
-                  <p className="px-xl-3 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-                    tenetur.
+                  <h5>XR Engine</h5>
+                  <p className="mb-0">
+                       We are using this repository for research and development purposes toward an open, decentralized, agent-centric and spatially-aware Internet.
                   </p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
                   <div className="client-img d-flex align-items-center ">
-                    <img src={clientImg} alt="client" className="rounded-circle img-fluid me-3" />
-
                     <div className="client-desc">
-                      <h6 className="mb-0">Maria Smantha</h6>
-                      <p className=" mb-0">Aug, 2021</p>
+                      <h6 className="mb-0">TypeScript</h6>
+                      <p className=" mb-0">Fork: 1</p>
                     </div>
                   </div>
-                  <ul className="rating list-unstyled d-flex justify-content-center mb-4">
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStarHalfAlt />
-                    </li>
-                  </ul>
+                  <a href="https://github.com/AtlasFoundation/XREngine" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">Github</a>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1400ms">
               <div className="testimonal-wrap">
-                <div className="d-flex justify-content-center mb-4">
+                <div className="mb-4">
                   <FaQuoteLeft className="quotes" />
-                  <p className="px-xl-3 mb-0">
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-                    tenetur.
+                  <h5 className="mb-0">The Nexus</h5>
+                  <p className="mb-0">
+                  The city that comes to you. An open source, hackable, community-driven and CC0 experiment in open metaverse.
                   </p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
                   <div className="client-img d-flex align-items-center ">
-                    <img src={clientImg} alt="client" className="rounded-circle img-fluid me-3" />
-
                     <div className="client-desc">
-                      <h6 className="mb-0">Maria Smantha</h6>
-                      <p className=" mb-0">Aug, 2021</p>
+                      <h6 className="mb-0">TypeScript</h6>
+                      <p className=" mb-0">Fork: 2</p>
                     </div>
                   </div>
-                  <ul className="rating list-unstyled d-flex justify-content-center mb-4">
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStar />
-                    </li>
-                    <li>
-                      <FaStarHalfAlt />
-                    </li>
-                  </ul>
+                  <a href="https://github.com/AtlasFoundation/TheNexus" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">Github</a>
                 </div>
               </div>
             </div>

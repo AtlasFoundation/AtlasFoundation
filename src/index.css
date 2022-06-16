@@ -77,7 +77,7 @@ nav .row {
   max-height: 75px;
 }
 
-button.btn.block-btn.common-btn {
+.btn.block-btn.common-btn {
   background-color: #fff;
   border-radius: 103px;
   padding: 7px 25px;
@@ -135,6 +135,9 @@ button.btn.block-btn.common-btn {
 .banner {
   position: relative;
 }
+.banner-img img{
+  width:100%;
+}
 
 .banner .heading {
   font-size: 3.5vw;
@@ -156,9 +159,8 @@ button.btn.block-btn.common-btn {
 /* about-css */
 .about-us {
   background-image: url(../src/assets/about-bg.png);
-  background-size: 100% 100%;
-  background-position: center;
-  overflow-y: hidden;
+  background-size: cover;
+    overflow-y: hidden;
 }
 
 .about-us video {
@@ -247,6 +249,9 @@ button.btn.block-btn.common-btn {
   bottom: 0;
 }
 
+.project-img img{
+  max-width:490px;
+}
 .card {
   background-color: transparent;
   border: none;
@@ -302,7 +307,7 @@ button.btn.block-btn.common-btn {
   flex-wrap: nowrap;
 }
 
-#Testimonial button.btn.block-btn.common-btn {
+#Testimonial .btn.block-btn.common-btn {
   background-color: #1e9cf3;
   color: #fff;
   margin-top: 0;
@@ -315,8 +320,9 @@ button.btn.block-btn.common-btn {
   object-fit: cover;
 }
 
-.rating svg {
-  fill: #ffd643;
+#Testimonial .btn.block-btn.common-btn.small-btn{
+  font-size: 13px;
+  padding: 6px 19px
 }
 
 .quotes {
@@ -617,26 +623,3 @@ footer a {
 }
 
 
-/* .banner .heading {
-  animation: animated-text 4s steps(29,end) 1s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
-             
-}
-.banner .heading {
-white-space: nowrap;
-  overflow: hidden;
-}
-
-/* text animation */
-
-/* @keyframes animated-text{
-  from{width: 0;}
-  to{width: 500px;}
-}
-
-/* cursor animations */
-
-/* @keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
-  to{border-right-color: transparent;}
-} */
