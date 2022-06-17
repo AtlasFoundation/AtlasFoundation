@@ -225,6 +225,7 @@ nav .row {
   margin-top: 80px;
   position: relative;
   background-position-x: center;
+  overflow: hidden;
 }
 
 .projects h1 {
@@ -232,15 +233,15 @@ nav .row {
 }
 
 .card__image {
-  height: 115px;
+  height: 100px;
   background-color: #fff;
-  width: 115px;
+  width: 100px;
   margin: -46px auto 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 100%;
-  border: 10px solid #63a5d2;
+  outline: 10px solid rgb(255 255 255 / 23%);
   box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 7%);
 }
 
@@ -257,7 +258,33 @@ nav .row {
   border: none;
   margin-bottom: 80px;
 }
-
+.cards:hover {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.cards:hover .card__title {
+  margin-top: 20px;
+  color: #1e9cf3;
+}
+.cards:hover .card__text{
+  color:#505055
+}
+.cards:hover .card__image {
+  background-color: #1e9cf3;
+}
+.cards:hover .card svg g {
+  fill: #fff;
+}
+.cards:hover .card__btn {
+  color: #fff;
+  background-color: #1e9cf3;
+}
+.cards {
+  transition: ease-in-out .5s;
+}
+.card__content {
+  padding: 0 15px 20px 15px;
+}
 .card svg g {
   fill: #1e9cf3;
   color: #1e9cf3;
@@ -278,6 +305,9 @@ nav .row {
 .mt-60 {
   margin-top: 80px;
 }
+div#Testimonial .mt-60 {
+  margin-top: 40px;
+}
 
 .card__title {
   margin-top: 20px;
@@ -296,8 +326,13 @@ nav .row {
   width: 95%;
   position: relative;
   margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
-
+.testimonal-wrap .mb-4 {
+  flex: 1;
+}
 #Testimonial .container {
   overflow: hidden;
 }
@@ -335,6 +370,7 @@ nav .row {
   padding: 12px;
   top: -25px;
   border-radius: 6px;
+  display:none;
 }
 
 /* Footer */

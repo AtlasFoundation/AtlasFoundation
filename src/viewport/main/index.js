@@ -183,7 +183,7 @@ const Main = () => {
               <h1 className="wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Our Services</h1>
             </div>
           </div>
-          <div className="row mt-60 d-flex align-items-center">
+          <div className="row mt-60 d-flex align-items-stretch">
             <div className="col-lg-4 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
               <div className="testimonal-wrap">
                 <div className="mb-4">
