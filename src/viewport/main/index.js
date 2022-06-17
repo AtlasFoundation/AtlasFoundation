@@ -91,7 +91,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="projects p-80 pb-0" id="Services">
+      <div className="projects p-80 pb-0" id="projects">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
