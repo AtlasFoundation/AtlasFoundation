@@ -346,6 +346,7 @@ div#Testimonial .mt-60 {
   background-color: #1e9cf3;
   color: #fff;
   margin-top: 0;
+  display: none;
 }
 
 .rounded-circle {

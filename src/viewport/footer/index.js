@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-5 overflow-hidden">
             <div id="footer-sidebar-first" className="company detail">
               <img src={footerLogo} alt="logo" className="img-fluid w-50 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms" />
-              <p className="text-white mt-3 mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">Making a 3D space you're in complete control of should be easy. The web provides the right context and tool to create natural integrations to existing platforms, that works across all devices and performs as well as native apps.</p>
+              <p className="text-white mt-3 mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">Making a 3D space you are in complete control of should be easy. The web provides the right context and tool to create natural integrations to existing platforms, that works across all devices and performs as well as native apps.</p>
             </div>
 
           </div>

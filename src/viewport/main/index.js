@@ -23,7 +23,7 @@ const Main = () => {
               <div className="col-xl-10 col-lg-10 col-md-12 wow pulse animated" data-wow-duration="1000ms" data-wow-delay="600ms">
                 <div className="text-wrap">
                   <h1 className="heading">FREE, OPEN & INTEROPERABLE IMMERSIVE WEB TECHNOLOGY</h1>
-                  <button className="btn block-btn common-btn" href="">Learn More</button>
+                  <a className="btn block-btn common-btn" href="#About_Us">Learn More</a>
                 </div>
                 <div
                   className="col-xl-2 col-lg-2 wow fadeInLeft animated"
@@ -51,7 +51,7 @@ const Main = () => {
             <div className="col-lg-6 mt-4 mt-lg-0">
               <h1 className="author mb-2 mb-lg-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">About Us</h1>
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="700ms">
-                Making a 3D space you're in complete control of should be easy. The web provides the right context and tool to create natural integrations to existing platforms, that works across all devices and performs as well as native apps.
+                Making a 3D space you are in complete control of should be easy. The web provides the right context and tool to create natural integrations to existing platforms, that works across all devices and performs as well as native apps.
               </p>
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
                 We're creating XR Engine to push the limit on what is possible on the web, in a way that's easy as starting a blog or video feed. Our eco
